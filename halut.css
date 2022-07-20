@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.halut{
+    width: 15%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 0;
+    height: 1200px;
+    background-color:rgb(52, 61, 61);
+    box-shadow: 10px 10px 10px rgb(206, 205, 205);
+    
+    
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.wadah{
+    display: flex;
+}
+.halut .item{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:rgb(56, 175, 188);
+    user-select: none;
+}
+.halut ul a{
+        display: block;
+        /* border: 1px solid black; */
+        line-height: 65px;
+        font-size: 23px;
+        color: white;
+        padding-left: 20px;
+        box-sizing: border-box;
+        border-top: 1px solid rgba(255, 255, 255, 1);
+        border-bottom: 1px solid white;
+        list-style: none;
+        box-shadow: 10px 10px 10px rgb(116, 113, 113);
+
+    }
+    ul li:hover a{
+        padding-left: 15px;
+    }
+    .halut ul a i{
+        margin-right: 10px;
+        /* border: 1px solid black; */
+    }
+    .halut li a{
+        text-decoration: none;
+    }
+.konten{
+    display: flex ;
+    flex-direction: column;
+    border: 1px solid black ;
+    width: 100px;
+    height: 100px;
+}
+.konten a{
+    display: flex ;
+    flex-direction: column;
+
+}

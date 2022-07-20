@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.judul{
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 10px rgb(232, 226, 226);
+    border-radius: 5px;
+    padding: 20px;
+    width: 1200px;
+    margin-left: 20px;
+    height: 50px;
+    display: flex;
+    font-size: 30px;
+}
+.a{
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    font-size: 40px;
+  
+}
+.logout{
+    
+    margin-left: 750px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #e2dfdf;
+    font-size: 15px;
+    border-color: rgb(255, 253, 253);
+
+}
+.logout:hover {
+    zoom: 101%;
+}
+.data{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.name{
+    /* border: 1px solid black; */
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 80px;
+    padding-top: 15px;
+}
+.kode{
+    height: 40px;
+    width: 350px;
+    margin-left: 80px;
+    border-radius: 5px;
+    border-color: rgb(202, 199, 199);
+
+}
+.simpan{
+    margin-top: 20px;
+    margin-left: 330px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #e2dfdf;
+    font-size: 15px;
+    border-color: rgb(255, 253, 253);
+
+}
+.simpan:hover {
+    zoom: 101%;
+}
+.data table{
+    margin-left: 80px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: rgb(255, 253, 253);
+
+}
+.data table tr:nth-child(even) {
+    background-color: #d8d5d5;
+  }
+  .data table td{
+      padding-left: 20px;
+  }
+  .tekan1{
+    margin-right: -5px;
+    margin-left: -5px;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(38, 165, 220);
+    border: none;
+    font-size: 11px;
+    color: white;
+}
+.tekan1:hover {
+    zoom: 102%;
+}
+.tekan2{
+    /* margin-right: -px; */
+    margin-left: -5px;
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(157, 40, 40);
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+.tekan2:hover {
+    zoom: 102%;
+}
+.tambah{
+    width: 120px;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: 15;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #e2dfdf;
+}
+.tambah:hover {
+    zoom: 103%;
+}
+.data{
+    display: flex;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(56, 175, 188);
+    background-color: rgb(132, 184, 186);
+    box-shadow: 10px 10px 10px gray;
+
+}
+.judul{
+    /* border: 1px solid black; */
+    text-align: center;
+    height: 50px;
+    font-size: 50px;
+    width: 300px;
+    margin: auto;
+    padding: auto;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+}
+.login{
+    box-shadow: 10px 10px 10px gray;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 593px;
+    margin-top: -40px;
+    position: absolute;
+    background-color: white;
+    
+}
+.login:hover{
+    zoom: 101%;
+}
+.judul2{
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.tabel{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.user{
+    /* border: 1px solid black; */
+    margin-left: 50px;
+}
+.username{
+    /* border: 1px solid black; */
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-right: 5px;
+    
+}
+.kotak1{
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(201, 196, 196);
+
+}
+.kotak1:hover{
+    zoom: 101%;
+}
+.pass{
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    width: 20px;
+    
+    
+}
+.password{
+    /* border: 1px solid black; */
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.kotak2{
+    height: 30px;
+    border-radius: 5px;
+    width: 168px;
+    border-color: rgb(201, 196, 196);
+
+}
+.kotak2:hover{
+    zoom: 101%;
+}
+.tekan2{
+    width: 100px;
+    height: 30px;
+    margin-left: 105px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(38, 165, 220);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+}
+.tekan2:hover {
+    zoom: 101%;
+}

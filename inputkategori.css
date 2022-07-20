@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.judul{
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 10px rgb(232, 226, 226);
+    border-radius: 5px;
+    padding: 20px;
+    width: 1200px;
+    margin-left: 20px;
+    height: 50px;
+    display: flex;
+    font-size: 30px;
+}
+.logout{
+    
+    margin-left: 750px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #e2dfdf;
+    font-size: 15px;
+    border-color: rgb(255, 255, 255);
+    
+}
+.data{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.name{
+    /* border: 1px solid black; */
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 80px;
+    padding-top: 15px;
+}
+.kode{
+    height: 40px;
+    width: 350px;
+    margin-left: 80px;
+    border-radius: 5px;
+    border-color: rgb(201, 196, 196);
+
+}
+.simpan{
+    margin-top: 20px;
+    margin-left: 330px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #e2dfdf;
+    font-size: 15px;
+    border-color: rgb(255, 255, 255);
+
+}
